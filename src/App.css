@@ -55,8 +55,29 @@ h1{
   font-size: 6rem;
 }
 
+.flex{
+  display: flex;
+}
 
+.spaceEvenly{
+  justify-content: space-evenly;
+}
 
+.smallTitle{
+  text-align: center;
+  text-decoration: none !important;
+  color: #302A24;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+a{
+  text-decoration: none !important;
+}
+
+.padBottom{
+  margin-bottom: 3rem;
+}
 
 /* BANNER */
 .banner{
@@ -88,7 +109,21 @@ h1{
 
 .white{
   color: white;
-  text-shadow: 2px 2px 2px #302A24;
+  text-shadow: none !important;
+}
+
+/* HOME */
+.titleHome{
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+.padTop{
+  margin-top: 2rem;
+}
+
+.BigDescription{
+  width: 38rem;
 }
 
 

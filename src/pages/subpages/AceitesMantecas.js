@@ -1,5 +1,5 @@
-import Banner from '../components/Banner';
-import Img from '../assets/bannerAceites.png'
+import Banner from '../components/../../components/Banner';
+import Img from '../assets/../../assets/bannerAceites.png'
 
 function AceitesMantecas() {
     return (

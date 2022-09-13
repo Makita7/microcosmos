@@ -1,5 +1,5 @@
-import Banner from '../components/Banner';
-import Img from '../assets/bannerTe.png'
+import Banner from '../components/../../components/Banner';
+import Img from '../assets/../../assets/bannerTe.png'
 
 function InfusionesTe() {
     return (

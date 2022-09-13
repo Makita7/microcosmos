@@ -11,8 +11,8 @@ import Productos from './pages/Productos';
 import Servicios from './pages/Servicios';
 import Contacto from './pages/Contacto';
 import Footer from './components/Footer';
-import InfusionesTe from './pages/InfusionesTe';
-import AceitesMantecas from './pages/AceitesMantecas';
+import InfusionesTe from './pages/subpages/InfusionesTe';
+import AceitesMantecas from './pages/subpages/AceitesMantecas';
 
 function App() {
   return (
