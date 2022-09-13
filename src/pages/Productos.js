@@ -1,8 +1,11 @@
-import React from 'react'
+import Banner from '../components/Banner';
+import Img from '../assets/productosBanner.png'
 
 function Productos() {
   return (
-    <div>Productos</div>
+    <div>
+      <Banner alt='sobre nosotros banner' src={Img} title='productos' />
+    </div>
   )
 }
 

@@ -1,9 +1,12 @@
-import React from 'react'
+import Banner from '../components/Banner';
+import Img from '../assets/serviciosBanner.png'
 
-function Services() {
+function Servicios() {
   return (
-    <div>Services</div>
+    <div>
+      <Banner alt='sobre nosotros banner' src={Img} title='Servicios' white='white'/>
+    </div>
   )
 }
 
-export default Services
+export default Servicios;

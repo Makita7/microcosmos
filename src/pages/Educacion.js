@@ -1,8 +1,11 @@
-import React from 'react'
+import Banner from '../components/Banner';
+import Img from '../assets/educacionBanner.png'
 
 function Educacion() {
   return (
-    <div>Educacion</div>
+    <div>
+      <Banner alt='sobre nosotros banner' src={Img} title='EDUCACIÓN'/>
+    </div>
   )
 }
 

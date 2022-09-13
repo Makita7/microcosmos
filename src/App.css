@@ -13,6 +13,7 @@ nav{
   background-color: white;
   position: sticky;
   top: 0;
+  z-index: 60;
 }
 
 .logo{
@@ -39,16 +40,56 @@ nav{
 
 /* GENERAL */
 .main{
-  min-height: 47rem;
+  min-height: 73vh ;
 }
 
 p{
   font-family: 'Poppins', sans-serif;
 }
 
+h1, h2, h3, h4, h5{
+  font-family: 'Patrick Hand', cursive;
+}
+
+h1{
+  font-size: 6rem;
+}
 
 
 
+
+/* BANNER */
+.banner{
+  height: 31rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner .background{
+  width: 100%;
+  position: absolute;
+}
+
+.banner .title{
+  position: absolute;
+  z-index: 50;
+  margin-top: 12%;
+  margin-left: 5rem;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px #ffffff;
+}
+.logoBanner{
+  width: 15rem !important;
+  position: absolute;
+  z-index: 50;
+  margin-top: 4%;
+  margin-left: 15rem;
+}
+
+.white{
+  color: white;
+  text-shadow: 2px 2px 2px #302A24;
+}
 
 
 
