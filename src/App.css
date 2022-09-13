@@ -4,7 +4,7 @@
   font-family: 'Poppins', sans-serif;
 */
 
-
+/* HEADER */
 nav{
   height: 6rem;
   display: flex;
@@ -35,4 +35,59 @@ nav{
   color: #302A24;
   font-family: 'Patrick Hand', cursive;
   font-size: 1.2em;
+}
+
+/* GENERAL */
+.main{
+  min-height: 47rem;
+}
+
+p{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+
+
+/* FOOTER */
+footer{
+  height: 6.5rem;
+  background-color: #514941;
+  color: #C2ECEB;
+  justify-content: space-between;
+  display: flex;
+}
+.FCol{
+  width: 33%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.logoF{
+  height: 2.5rem;
+  padding-left: 2rem;
+}
+
+footer p{
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 0.9em;
+}
+
+.icon{
+  padding-left: 1rem;
+  color: #C2ECEB;
+}
+
+.icon:hover{
+  color: rgb(42, 202, 202);
+}
+
+footer .end{
+  text-align: end !important;
+  padding-right: 2rem;
 }
