@@ -142,6 +142,10 @@ a{
   text-transform: capitalize;
 }
 
+.quienesSomos h4{
+  font-size: 1.8em;
+  font-weight: bold;
+}
 
 
 
@@ -180,6 +184,7 @@ a{
   display: table;
   margin-left: auto;
   margin-right: auto;
+  text-transform: capitalize;
 }
 
 .educacion h5{
