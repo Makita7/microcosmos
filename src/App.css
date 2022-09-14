@@ -175,6 +175,25 @@ a{
 }
 
 
+/* EDUCACION */
+.educacion .list{
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.educacion h5{
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}
+
+.education li::before{
+  color: #249795;
+}
+
+
+
 /* FOOTER */
 footer{
   height: 6.5rem;
