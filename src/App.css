@@ -143,6 +143,38 @@ a{
 }
 
 
+
+
+/* CONTACTOS */
+
+.contactos{
+  background-image: url('./assets/contacts.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contactos .icon{
+  padding-left: 1rem;
+  color: #249795;
+}
+
+.contactos .icon:hover{
+  color: rgb(9, 82, 82);
+}
+
+.contactos h3{
+  padding-top: 12rem;
+  font-size: 4em;
+}
+
+.contactos .center{
+  margin-right: auto;
+  margin-left: auto;
+  display: table;
+  margin-top: 1rem;
+}
+
+
 /* FOOTER */
 footer{
   height: 6.5rem;
@@ -168,12 +200,12 @@ footer p{
   font-size: 0.9em;
 }
 
-.icon{
+footer .icon{
   padding-left: 1rem;
   color: #C2ECEB;
 }
 
-.icon:hover{
+footer .icon:hover{
   color: rgb(42, 202, 202);
 }
 
