@@ -1,5 +1,4 @@
 import { Link, Outlet } from "react-router-dom";
-import { BiocosmeticaProd } from "./BiocosmeticaElem/BiocosmeticaProd";
 
 
 function Biocosmetica() {
@@ -14,10 +13,11 @@ function Biocosmetica() {
             <div className="links">
                 <Link className="biocosmeticaLink" to='jabones'>Jabones</Link> |
                 <Link className="biocosmeticaLink" to='pastadental'>Pasta Dental</Link> |
+                <Link className="biocosmeticaLink" to='mantecas'>Mantecas</Link> |
                 <Link className="biocosmeticaLink" to='arcillas'>Arcillas</Link> |
                 <Link className="biocosmeticaLink" to='tonicosfaciales'>Tonicos Faciales</Link> |
                 <Link className="biocosmeticaLink" to='capilar'>Capilar</Link> |
-                <Link className="biocosmeticaLink" to='salesbaño'>Sales de Baño</Link>
+                <Link className="biocosmeticaLink" to='sales'>Sales de Baño</Link>
             </div>
             <br/>
             <Outlet/>

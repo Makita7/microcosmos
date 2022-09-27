@@ -255,12 +255,70 @@ footer .end{
 a.biocosmeticaLink {
   padding-left: 1rem;
   padding-right: 1rem;
+  color: #009d9c;
+  font-weight: 700;
 }
 
-.jabones h3{
+.biocosmetica h3{
   padding-left: 2rem;
   font-size: 2.7rem;
 }
 
-/* Product cards */
+.pastadental button {
+  background-color: #009d9c;
+  border: 0px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 
+.pastadental a{
+  color: white;
+  font-weight: 700;
+  padding: 1.5rem;
+}
+
+/* Product cards */
+.card {
+  width: 26rem;
+  background-color: #ffffff;
+  min-height: 15rem;
+  margin: 0.7rem;
+  border-color: #ffffff;
+  box-shadow: 10px 10px 29px 0px rgba(165,178,183,0.75);
+  -webkit-box-shadow: 10px 10px 29px 0px rgba(165,178,183,0.75);
+  -moz-box-shadow: 10px 10px 29px 0px rgba(165,178,183,0.75);
+}
+
+.card h5{
+  font-size: 2rem;
+  margin-top: 0.1rem;
+  text-transform: capitalize;
+}
+
+.cardCont {
+  display: inline-flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-around !important;
+}
+
+.innerPadCard{
+  padding: 1.3rem;
+}
+
+/* cards Arcillas */
+.arcilla h5{
+  color: #009d9c;
+  font-weight: 700;
+  width: 10rem;
+}
+
+.arcilla .contTwo p{
+  width: 50%;
+}
+
+.contTwo{
+  margin-left: 20%;
+  margin-right: auto;
+}

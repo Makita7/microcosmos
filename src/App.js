@@ -20,6 +20,7 @@ import Arcilla from './pages/subpages/BiocosmeticaElem/Arcilla';
 import TonicosFaciales from './pages/subpages/BiocosmeticaElem/TonicosFaciales';
 import Capilar from './pages/subpages/BiocosmeticaElem//Capilar';
 import SalesdeBaño from './pages/subpages/BiocosmeticaElem/SalesdeBaño';
+import Mantecas from './pages/subpages/BiocosmeticaElem/Mantecas';
 
 function App() {
   return (
@@ -43,7 +44,8 @@ function App() {
             <Route path='arcillas' element={<Arcilla/>}/>
             <Route path='tonicosfaciales' element={<TonicosFaciales/>}/>
             <Route path='capilar' element={<Capilar/>}/>
-            <Route path='salesbaño' element={<SalesdeBaño/>}/>
+            <Route path='sales' element={<SalesdeBaño/>}/>
+            <Route path='mantecas' element={<Mantecas/>}/>
           </Route>
         </Routes>
         <Footer/>

@@ -10,15 +10,19 @@ function Jabones() {
                 Se combinan aceites esenciales, extractos naturales, aceites vegetales y diferentes compuestos para atender las necesidades de tu piel. <br/>
                 <b>Sus nombre en japonés le dan un toque significativo y especial.</b>
             </p>
-
-            {
-                JabonesProd.map(p =>
-                    <div key={p.id}>
-                        <h5>{p.title}</h5>
-                        <p>{p.description}</p>
-                    </div>
-                )
-            }
+            <div className="cardCont padBottom">
+                {
+                    JabonesProd.map(p =>
+                        <div className="card" key={p.id}>
+                            <div className="innerPadCard">
+                                <img alt={p.title} src={p.img}/>
+                                <h5>{p.title}</h5>
+                                <p>{p.description}</p>
+                            </div>
+                        </div>
+                    )
+                }
+            </div>
         </div>
     );
 }
