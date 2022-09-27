@@ -237,3 +237,30 @@ footer .end{
   text-align: end !important;
   padding-right: 2rem;
 }
+
+
+/* BIOCOSMETICA */
+.biocosmetica .smallercont{
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.biocosmetica .links{
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+}
+
+a.biocosmeticaLink {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.jabones h3{
+  padding-left: 2rem;
+  font-size: 2.7rem;
+}
+
+/* Product cards */
+

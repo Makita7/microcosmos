@@ -13,6 +13,13 @@ import Contacto from './pages/Contacto';
 import Footer from './components/Footer';
 import InfusionesTe from './pages/subpages/InfusionesTe';
 import AceitesMantecas from './pages/subpages/AceitesMantecas';
+import Biocosmetica from './pages/subpages/Biocosmetica';
+import Jabones from './pages/subpages/BiocosmeticaElem/Jabones';
+import PastaDental from './pages/subpages/BiocosmeticaElem/PastaDental';
+import Arcilla from './pages/subpages/BiocosmeticaElem/Arcilla';
+import TonicosFaciales from './pages/subpages/BiocosmeticaElem/TonicosFaciales';
+import Capilar from './pages/subpages/BiocosmeticaElem//Capilar';
+import SalesdeBaño from './pages/subpages/BiocosmeticaElem/SalesdeBaño';
 
 function App() {
   return (
@@ -29,6 +36,15 @@ function App() {
           {/* other pages not in nav */}
           <Route path='/infusiones' element={<InfusionesTe/>}/>
           <Route path='/aceites' element={<AceitesMantecas/>}/>
+          {/* Biocosmetica */}
+          <Route path='/biocosmetica' element={<Biocosmetica/>}>
+            <Route path='jabones' element={<Jabones/>}/>
+            <Route path='pastadental' element={<PastaDental/>}/>
+            <Route path='arcillas' element={<Arcilla/>}/>
+            <Route path='tonicosfaciales' element={<TonicosFaciales/>}/>
+            <Route path='capilar' element={<Capilar/>}/>
+            <Route path='salesbaño' element={<SalesdeBaño/>}/>
+          </Route>
         </Routes>
         <Footer/>
       </Router>
