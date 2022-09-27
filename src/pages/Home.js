@@ -42,7 +42,7 @@ function Home() {
         <h3 className='titleHome padTop'>servicios</h3>
         <div>
           <div className='flex spaceEvenly padBottom'>
-            <SmallSections to='aromaterapia' alt='aromaterapia' src={Aromaterapia} title='aromaterapia y Masajes' />
+            <SmallSections to='aromaterapia-masajes' alt='aromaterapia' src={Aromaterapia} title='aromaterapia y Masajes' />
             <SmallSections to='biocosmetica' alt='biocosmetica' src={Biocosmetica} title='biocosmetica' />
             <SmallSections to='educacion' alt='educacion mic' src={Educacion} title='educacion mic' />
           </div>

@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import { useEffect } from 'react';
 // Components
 import Navbar from './components/Navbar';
 //Pages
@@ -23,16 +24,29 @@ import SalesdeBaño from './pages/subpages/BiocosmeticaElem/SalesdeBaño';
 import Mantecas from './pages/subpages/BiocosmeticaElem/Mantecas';
 import Aceites from './pages/subpages/AceitesElem/Aceites';
 import Te from './pages/subpages/InfusionesElem/Te';
+import AromaterapiaMasajes from './pages/subpages/AromaterapiaMasajes';
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 function App() {
   return (
     <div className="">
       <Router>
+        <ScrollToTop/>
         <Navbar/>
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/sobrenosotros' element={<SobreNosotros/>}/>
           <Route path='/educacion' element={<Educacion/>}/>
+
           {/* Products */}
           <Route path='/productos' element={<Productos/>}>
             <Route path='te_infusiones' element={<Te/>}/>
@@ -48,8 +62,10 @@ function App() {
 
           <Route path='/servicios' element={<Servicios/>}/>
           <Route path='/contacto' element={<Contacto/>}/>
+
           {/* other pages not in nav */}
           <Route path='/infusiones' element={<InfusionesTe/>}/>
+          <Route path='/aromaterapia-masajes' element={<AromaterapiaMasajes/>}/>
 
           {/* Aceites y Mantecas */}
           <Route path='/aceites' element={<AceitesMantecas/>}>
@@ -67,6 +83,7 @@ function App() {
             <Route path='sales' element={<SalesdeBaño/>}/>
             <Route path='mantecas' element={<Mantecas/>}/>
           </Route>
+
         </Routes>
         <Footer/>
       </Router>
