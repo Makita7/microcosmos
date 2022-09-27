@@ -174,3 +174,59 @@ export const Mantecas = [
         description: `Humectante y emoliente labial y corporal elaborado  con granos de  Cacao (Theobroma Cacao) aceite de palta y de algodón. Rica en ácidos lenoleico, palmítico, esteárico y en Vit A y E.`
     },
 ]
+
+export const ProdCapilar = [
+    {
+        id: 1,
+        title: `Trino`,
+        img: Tin,
+        description: `El aceite capilar Trino de Microcosmos® es un potente restaurador y fortalecedor de puntas, otorgando al cabello brillo flexibilidad, contribuyendo a su hidratación y humectación.
+        Formulado a base de aceite de Jojoba, Argan, Almendras y ricino contando con los beneficios y exquisitos aromas de los aceites esenciales
+        Elaborado para cabellos dañados y resecos.`
+    },
+    {
+        id: 2,
+        title: `Pest-Forte`,
+        img: Tin,
+        description: `Cedro y Ricino se combinan para fortalecer el crecimiento de cejas y pestañas.
+        Suave y totalmente vegano, natural y libre de gluten.`
+    },
+]
+
+export const SalesProd = [
+    {
+        id: 1,
+        title: `Energía`,
+        img: Tin,
+        description: `La frescura del aceite de menta, las hebras de romero y la acción de la naranja, La convierten en una aliada de los baños matutinos o aquellos en los que nuestro ser necesite un empujoncito.
+        Las propiedades activadoras de la circulación de la menta y el romero hacen que sea ideal para problemas circulatorios como várices, retención de líquido, etc.`
+    },
+    {
+        id: 2,
+        title: `Amor`,
+        img: Tin,
+        description: `Una combinación de rosas, te rojo, y hojas de zen que ayudan a la purificación y la prevención del envejecimiento prematuro de la piel
+        Las rosas como símbolo del romanticismo, del amor y su aroma floral transmite tranquilidad y calma.
+        Además, los pétalos de Rosas limpian impurezas, suavizan y relajan la piel. Además de poseer propiedades afrodisiacas.`
+    },
+    {
+        id: 3,
+        title: `Relax`,
+        img: Tin,
+        description: `Las propiedades relajantes y sedantes de la lavanda ayudan a aliviar el estrés y a disminuir las tensiones corporales que muchas veces son provocadas por pensamientos intensos de confusión, tristeza, miedo etc. Además, tiene propiedades cicatrizantes, antisépticas, antioxidantes y mantiene el equilibrio en la piel.`
+    },
+    {
+        id: 4,
+        title: `Pureza`,
+        img: Tin,
+        description: `La sal es revitalizante, relajante, desintoxica la piel generando suavidad y regeneración celular.
+        La jarilla es sumamente purificante y actúa como un  suavizante e hidratante de la piel,
+        Esta sal tiene efecto relajante, descongestionante, antiséptico y astringente. alivia dolores musculares. Y al contener eucalipto es expectorante, antiséptico y antiinflamatorio.`
+    },
+    {
+        id: 5,
+        title: `Caricias`,
+        img: Tin,
+        description: `Las flores de Manzanilla, caléndula, te verde y el Lemon Grass otorgan propiedades revitalizantes, relajantes, desintoxicantes de  la piel generando suavidad y regeneración celular. La Manzanilla reduce el estrés y la ansiedad. Mantiene equilibrio en la piel, tiene efectos antiinflamatorios, antisépticos y aclarantes, la caléndula es regeneradora y desinflamante. Ideal para afecciones de la piel. Lemon Grass aporta suavidad y tonicidad cutánea. La combinación de estas propiedades, la sal  y sus demás componentes le aportan propiedades astringentes y relajantes del sistema nervioso`
+    },
+]
