@@ -1,13 +1,12 @@
 import { Link, Outlet } from "react-router-dom";
 import Banner from '../../components/Banner';
-import Img from '../../assets/productosBanner.png'
+import Img from './BiocosmeticaElem/img/biocosmeticbanner.jpg';
 
 function Biocosmetica() {
     return (
         <>
             <Banner alt='biocosmetica banner' src={Img} title='Biocosmética' />
             <div className="container biocosmetica main padTop">
-                {/* <h1 className="text-center">Biocosmética</h1> */}
                 <p className="smallercont">Diseñamos la  línea  Biocosmética Microcosmos® teniendo en cuenta los cuidados primarios de limpieza, tonicidad, humectación, nutrición e hidratación de la primer barrera  que protege nuestro organismo de los agentes externos. <br/>
                 Vas a poder disfrutar de productos que nos fueron testeados en animales, veganos, libres de gluten y  respetuosos con el medio ambiente no solo por los ingredientes con las que están formulados, sino también porque evitamos empaques innecesarios para reducir la producción de basura aportando nuestro granito de arena. Nuestros envases contienen la mpinima cantidad de pl´stico posible y contamos también con repuestos sin envase. <br/>
                 Nuestros productos Biocosmetica Microcosmos® es un mensaje de amor para cada cuidado básico. Sentilos

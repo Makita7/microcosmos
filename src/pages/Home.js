@@ -21,7 +21,7 @@ function BigSections({to, alt, src, title}){
 function SmallSections({to, alt, src, title}){
   return(
     <Link to={to}>
-      <img className='SmallDescription' alt={alt} src={src} />
+      <img className='SmallDescription services' alt={alt} src={src} />
       <p className='smallTitle'>{title}</p>
     </Link>
   );
@@ -42,9 +42,8 @@ function Home() {
         <h3 className='titleHome padTop'>servicios</h3>
         <div>
           <div className='flex spaceEvenly padBottom'>
-            <SmallSections to='aromaterapia' alt='aromaterapia' src={Aromaterapia} title='aromaterapia' />
+            <SmallSections to='aromaterapia' alt='aromaterapia' src={Aromaterapia} title='aromaterapia y Masajes' />
             <SmallSections to='biocosmetica' alt='biocosmetica' src={Biocosmetica} title='biocosmetica' />
-            <SmallSections to='masajes' alt='masajes' src={Masajes} title='masajes' />
             <SmallSections to='educacion' alt='educacion mic' src={Educacion} title='educacion mic' />
           </div>
         </div>

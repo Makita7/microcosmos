@@ -126,6 +126,10 @@ a{
   width: 38rem;
 }
 
+img.SmallDescription.services {
+  width: 17rem;
+}
+
 
 /* QUIENES SOSMOS */
 .float{
@@ -289,6 +293,7 @@ a.biocosmeticaLink {
   box-shadow: 10px 10px 29px 0px rgba(165,178,183,0.75);
   -webkit-box-shadow: 10px 10px 29px 0px rgba(165,178,183,0.75);
   -moz-box-shadow: 10px 10px 29px 0px rgba(165,178,183,0.75);
+  border-radius: 10px;
 }
 
 .card h5{
@@ -321,4 +326,21 @@ a.biocosmeticaLink {
 .contTwo{
   margin-left: 20%;
   margin-right: auto;
+}
+
+/* Cards Aceites */
+.cardTwo {
+  width: 32rem;
+  background-color: #ffffff;
+  min-height: 15rem;
+  margin: 0.7rem;
+  border-color: #ffffff;
+  box-shadow: 10px 10px 29px 0px rgba(165,178,183,0.75);
+  -webkit-box-shadow: 10px 10px 29px 0px rgba(165,178,183,0.75);
+  -moz-box-shadow: 10px 10px 29px 0px rgba(165,178,183,0.75);
+  border-radius: 10px;
+}
+
+.pad-right {
+  margin-right: 1rem;
 }
