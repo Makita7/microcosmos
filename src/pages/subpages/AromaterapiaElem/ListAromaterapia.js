@@ -1,0 +1,42 @@
+
+export const ListAromaterepia = [
+    {
+        id: 1,
+        title: 'Reflexo_Aromaterapia Integral',
+        incluye1: 'Reflexología',
+        incluye2: 'Aromaterapia',
+        incluye3: 'Dígitopuntura',
+        detalle: ' (está opción no incluye masajes) ',
+    },
+    {
+        id: 2,
+        title: 'Maso_Aromaterapia',
+        incluye1: 'Masaje integral',
+        incluye2: 'Aromaterapia',
+        incluye3: 'Reflexología',
+        incluye4: 'Dígitopuntura',
+    },
+    {
+        id: 3,
+        title: 'Maso-Aromaterapia Integral Completa',
+        incluye1: 'Estiramiento del nervio vago y plexo solar',
+        incluye2: 'Aromaterapia',
+        incluye3: 'Reflexología',
+        incluye4: 'Dígitopuntura',
+        detalle: 'Y a disposición en caso que sea necesario',
+        incluye5: 'Introducción al biomagnetismo',
+        incluye6: 'Maderoterapía',
+        incluye7: 'Cañas de bambo',
+    },
+    {
+        id: 4,
+        title: 'Aroma Terapia Biomagnética Intensiva',
+        incluye1: 'Aplicación de protocolos con imanes de ferrita',
+        incluye2: 'Auriculoterapia',
+        incluye3: 'Reflexología',
+        incluye4: 'Dígitopuntura',
+        incluye5: 'Apoyo domiciliario con imanes y agua ionizada',
+        incluye6: 'Tratamiento de emociones con aceites esenciales.',
+        detalle2: '(Según la necesidad de cada persona es lo que se realiza en la sesión)',
+    },
+]

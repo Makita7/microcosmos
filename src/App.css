@@ -353,3 +353,31 @@ a.biocosmeticaLink {
 .infusiones .c{
   text-align: center;
 }
+
+
+/* Aromaterapia */
+
+.detailpad{
+  padding: 1rem 0;
+}
+
+.aromaterapia ul.list {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+  font-weight: 600;
+}
+
+.aromaterapia .blossom{
+  /* background: url('./assets/libullets.png') no-repeat left top; */
+  padding-top: 0.5rem;
+  margin-top: 1rem;
+}
+.aromaterapia .blossom li::before {
+  content:  url('./assets/libullets.png');
+  display: inline-block;
+  background-image: url();
+  vertical-align: middle !important;
+  margin-right: 0.5rem;
+}

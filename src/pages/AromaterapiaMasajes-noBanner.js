@@ -1,11 +1,8 @@
-import Img from '../../assets/masagesBanner.jpg'
-import Banner from '../../components/Banner';
-import { ListAromaterepia } from './AromaterapiaElem/ListAromaterapia'
+import { ListAromaterepia } from './subpages/AromaterapiaElem/ListAromaterapia';
 
-function AromaterapiaMasajes() {
+function AromaterapiaMasajesNoBanner() {
     return (
         <div className='padBottom'>
-            <Banner alt='masajes banner' src={Img} title='Aromaterapia y Masajes'/>
             <div className="container biocosmetica main padTop aromaterapia">
                 <h3 className='text-center'>Aromaterapia y Masajes</h3>
                 <p className="smallercont">
@@ -60,4 +57,4 @@ function AromaterapiaMasajes() {
     );
 }
 
-export default AromaterapiaMasajes;
+export default AromaterapiaMasajesNoBanner;
