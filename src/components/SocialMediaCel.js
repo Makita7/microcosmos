@@ -9,6 +9,7 @@ function SocialMediaCel() {
         <div className='OnlyCell'>
             <a className='icon' href='mailto:microcosmosapp@gmail.com'><AiOutlineMail size={20}/></a>
             <a className='icon' href={FaceBook} ><AiOutlineFacebook size={20}/></a>
+            <br/>
             <a className='icon' href='https://wa.me/5492995289706?text='><BsWhatsapp size={20}/></a>
             <a className='icon' href={Insta} ><AiOutlineInstagram size={20}/></a>
         </div>

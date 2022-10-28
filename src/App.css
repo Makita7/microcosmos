@@ -571,4 +571,10 @@ a.biocosmeticaLink {
   a.dropLinks {
     color: #00839c;
   }
+  .contactos {
+    background-image: url('./assets/contactsCel.png');
+  }
+  .contactos h3 {
+    font-size: 2.5em;
+  }
 }
