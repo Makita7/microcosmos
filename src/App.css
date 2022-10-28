@@ -254,6 +254,7 @@ footer .end{
   margin-left: auto;
   margin-right: auto;
   display: table;
+  text-align: center;
 }
 
 a.biocosmeticaLink {
@@ -424,4 +425,38 @@ a.biocosmeticaLink {
   width: 100%;
   border-radius: 10px;
   margin-bottom: 2rem;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1200px) {
+  .logoBanner {
+    width: 8rem !important;
+    margin-left: 6rem;
+  }
+  .banner {
+    height: 18rem;
+  }
+  .BigDescription {
+    width: 18rem;
+  }
+  .smallTitleFix {
+    width: 10rem !important;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  img.SmallDescription.services {
+    width: 12rem;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  .main {
+    min-height: 83vh;
+  }
+  .contactos h3 {
+    font-size: 3em;
+  }
 }
