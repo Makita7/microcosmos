@@ -21,13 +21,14 @@ function Arcilla() {
                         <div className="contTwo" key={p.id}>
                             <li className="flex">
                                 <h5>{p.title}</h5>
-                                <p>{p.description}</p>
+                                <p className="NotCell">{p.description}</p>
                             </li>
+                                <p className="OnlyCell">{p.description}</p>
                         </div>
                     )
                 }
             </div>
-            <p>
+            <p className="ArcillaPFixPad">
                 Su alto contenido en silicio es altamente beneficioso para pieles maduras y sensibles.
                 <br/>
                 Formular tus propias mascarillas faciales es una hermosa experiencia dale rienda suelta a la creatividad y enriquécelas con aceites esenciales, resinas y aceites vegetales y dale a tu piel lo que ella necesite cada día.

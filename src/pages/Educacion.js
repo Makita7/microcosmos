@@ -5,7 +5,7 @@ function Educacion() {
   return (
     <div className='main educacion padBottom'>
       <Banner alt='sobre nosotros banner' src={Img} title='EDUCACIÓN'/>
-      <div className='container padTop'>
+      <div className='container padTop ContainerCelEdu'>
         <p>
           Nuestra pasión es conocer más sobre como funcionamos a nivel integral y como prevenir enfermedades teniendo en cuenta los tres aspectos fundamentales de nuestra vida (espíritu, alma y cuerpo) y acompañar y desafiar a cada quién a encontrar el propósito de su vida, lo que los japoneses llama IKIGAI (Ver anexo IKIGAI
           Creemos que generar espacios de aprendizajes mutuos contribuye a generar conciencia comunitaria  de pequeños cambios que podemos realizar para vivir mejor, más sanos y más felices.

@@ -7,7 +7,6 @@ import Aceites from '../assets/aceitesymantecas.png';
 import Infusiones from '../assets/infusiones-te.png';
 import Aromaterapia from '../assets/aromaterapia.png';
 import Biocosmetica from '../assets/biocosmetica.png';
-import Masajes from '../assets/masaje.png';
 import Educacion from '../assets/educacion-mic.png';
 
 function BigSections({to, alt, src, title}){

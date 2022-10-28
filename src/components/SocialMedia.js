@@ -3,12 +3,12 @@ import {BsWhatsapp} from 'react-icons/bs';
 
 function SocialMedia() {
     return (
-        <>
-            <a className='icon' href=''><AiOutlineMail size={32}/></a>
-            <a className='icon' href=''><AiOutlineFacebook size={32}/></a>
-            <a className='icon' href=''><BsWhatsapp size={30}/></a>
-            <a className='icon' href=''><AiOutlineInstagram size={32}/></a>
-        </>
+        <div className='NotCell'>
+            <a className='icon' href='mailto:neuquina007@gmail.com'><AiOutlineMail size={32}/></a>
+            <a className='icon' href='https://facebook.com/'><AiOutlineFacebook size={32}/></a>
+            <a className='icon' href='https://wa.me/5492995289706?text='><BsWhatsapp size={30}/></a>
+            {/* <a className='icon' href=''><AiOutlineInstagram size={32}/></a> */}
+        </div>
     );
 }
 

@@ -41,7 +41,7 @@ function TonicosFaciales() {
                 Serums.map(p =>
                     <div className="card" key={p.id}>
                         <div className="innerPadCard">
-                            <img alt={p.title} src={p.img}/>
+                            {/* <img alt={p.title} src={p.img}/> */}
                             <h5>{p.title}</h5>
                             <p>{p.description}</p>
                         </div>
