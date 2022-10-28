@@ -1,5 +1,8 @@
 // Jabones
 import Tin from './img/img.png';
+import Cacao from './img/Cacao.jpg';
+import Mango from './img/mango.jpg';
+import Karite from './img/karite.jpg';
 
 
 export const BiocosmeticaProd = [
@@ -154,7 +157,7 @@ export const Mantecas = [
     {
         id: 1,
         title: `KARITË`,
-        img: Tin,
+        img: Karite,
         description: `Hidratante antioxidante y calmante corporal y labial
         elaborando con almendras de karité (vitellaria paradoxa - butyrospermum)
         Rico en ácido palmítico, esteárico, oleico, linolénico , linolénicos y en Vit. A`
@@ -162,7 +165,7 @@ export const Mantecas = [
     {
         id: 2,
         title: `MANGO`,
-        img: Tin,
+        img: Mango,
         description: `Hidratante y regenerador corporal y labial elaborado con huesos de mango (magnifera indica)
         Rica en Vitaminas  A, B, C, D y E y en acidos oléicos (Omega 9),  esteáricos,  palmíticos, araquidónicos,  behénicos,  lignocéricos,  linolénicos y linoléicos. *Contiene
         Fitoesteroles, oligoelementos (hierro, potasio, calcio y magnesio)*`
@@ -170,7 +173,7 @@ export const Mantecas = [
     {
         id: 3,
         title: `CACAO`,
-        img: Tin,
+        img: Cacao,
         description: `Humectante y emoliente labial y corporal elaborado  con granos de  Cacao (Theobroma Cacao) aceite de palta y de algodón. Rica en ácidos lenoleico, palmítico, esteárico y en Vit A y E.`
     },
 ]

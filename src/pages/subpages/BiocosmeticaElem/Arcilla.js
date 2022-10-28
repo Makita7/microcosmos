@@ -1,8 +1,10 @@
 import { Arcillas } from "./BiocosmeticaProd";
+import ArcillaImg from './img/arcillas-faciales.jpg';
 
 function Arcilla() {
     return (
         <div className='smallercont arcilla padBottom'>
+            <img className="ArcillaImg" src={ArcillaImg} alt="imagen arcillas faciales" />
             <h3>Génesis</h3>
             <p>
                 La línea  de tierras, arcillas y polvos naturales Génesis Microcosmos® es un conjunto completo de compuestos presentes en la naturaleza que aportan a nuestra piel la pureza, elasticidad y propiedades necesarias para su cuidado amoroso.

@@ -328,6 +328,14 @@ a.biocosmeticaLink {
   margin-right: auto;
 }
 
+.ArcillaImg {
+  width: 40%;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
 /* Cards Aceites */
 .cardTwo {
   width: 32rem;
@@ -339,6 +347,15 @@ a.biocosmeticaLink {
   -webkit-box-shadow: 10px 10px 29px 0px rgba(165,178,183,0.75);
   -moz-box-shadow: 10px 10px 29px 0px rgba(165,178,183,0.75);
   border-radius: 10px;
+}
+
+.AceitesImg{
+  width: 30%;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-bottom: 2rem;
 }
 
 .pad-right {
@@ -380,4 +397,31 @@ a.biocosmeticaLink {
   background-image: url();
   vertical-align: middle !important;
   margin-right: 0.5rem;
+}
+
+/*MANTECAS CARD*/
+.mantecasImg{
+  width: 100%;
+}
+
+/* SOAPS */
+.mainSoapImg{
+  width: 100%;
+  margin: 1rem 0 2rem 0;
+  border-radius: 10px;
+}
+
+/*Tes*/
+.InfusionesImg{
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+/* CAPILAR | TONICOS FACIALES | SALES DE BAÑO */
+
+.ImgFixMorePages{
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 2rem;
 }

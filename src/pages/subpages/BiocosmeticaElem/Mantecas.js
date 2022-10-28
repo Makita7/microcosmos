@@ -13,7 +13,7 @@ function Mantecas() {
                 MantecasProd.map(p =>
                     <div className="card" key={p.id}>
                         <div className="innerPadCard">
-                            <img alt={p.title} src={p.img}/>
+                            <img className="mantecasImg" alt={p.title} src={p.img}/>
                             <h5>{p.title}</h5>
                             <p>{p.description}</p>
                         </div>

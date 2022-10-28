@@ -47,7 +47,7 @@ function AromaterapiaMasajes() {
                     <li className='blossom'>Terapias Japonesas de pies - (incluye, baño de espuma, experiencia sensorial con piedras, aromas, aceites y exfoliación completa) </li>
                     <li className='blossom'>Sesiónes de Coaching Integrativo</li>
                 </ul>
-                    <p className='padTop padBottom'>
+                    <p className='padTop padBottom smallercont'>
                         A partir del mes de Diciembre del 2022 podés reservar tus sesiones para potenciar y ampliar tus posibilidades a una vida con menos estrés y más felicidad
                         Además si es que aún no has encontrado el sentido a tu vida, juntos sumergirnos en la búsqueda de tu Ikigai  personal (Ver articulo sobre Ikigai)
                     </p>

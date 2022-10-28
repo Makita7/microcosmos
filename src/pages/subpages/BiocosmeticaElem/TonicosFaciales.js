@@ -1,4 +1,5 @@
 import { Serums, Tonicos } from "./BiocosmeticaProd";
+import ImgTonicos from './img/TonicosFaciales.jpg';
 
 function TonicosFaciales() {
     return (
@@ -8,12 +9,13 @@ function TonicosFaciales() {
             Hidratar tu cuerpo con la debida cantidad de agua de acuerdo a tu peso es esencial para disfrutar de una piel sana y funcional. Pero, incluso si estás bebiendo suficiente cantidad, tu piel pierde humedad mediante la pérdida transepidérmica de agua (denominado TEWL por sus siglas en inglés) a través del estrato córneo, la capa externa de la piel. Si no nos hidratamos adecuadamente, la piel se puede secar, tensar o tener un aspecto opaco. Los tónicos faciales Aguas Microcosmos® ayudan a reforzar la función de barrera de la piel y, por lo tanto, disminuir el TEWL. <br/>
             Las propiedades de fortalecimiento de nuestras aguas Microcosmos® pueden proporcionar a la piel muchos beneficios, entre ellos, reforzar la barrera natural contra las agresiones diarias.
         </p>
+        <img alt="imagen tonicos faciales" src={ImgTonicos} className="ImgFixMorePages" />
         <div className="cardCont padBottom">
             {
                 Tonicos.map(p =>
                     <div className="card" key={p.id}>
                         <div className="innerPadCard">
-                            <img alt={p.title} src={p.img}/>
+                            {/* <img alt={p.title} src={p.img}/> */}
                             <h5>{p.title}</h5>
                             <p>{p.description}</p>
                         </div>

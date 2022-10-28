@@ -1,4 +1,5 @@
 import { SalesProd } from './BiocosmeticaProd'
+import ImgSales from './img/BathSalts.jpg';
 
 function SalesdeBaño() {
     return (
@@ -9,12 +10,13 @@ function SalesdeBaño() {
                 Las sales son revitalizantes, relajantes, desintoxican la piel generando suavidad y regeneración celular por las propiedades de los diferentes compuestos que contienen.<br/>
                 Pueden utilizarse en bañeras, pediluvios y maniluvios, teniendo en cuenta que si se utiliza en jacuzzis, no deberán encenderse los jets debido a que podrían dañarlos
             </p>
+            <img alt="imagenes sales de baño" src={ImgSales} className="ImgFixMorePages" />
             <div className="cardCont padBottom">
                 {
                     SalesProd.map(p =>
                         <div className="card" key={p.id}>
                             <div className="innerPadCard">
-                                <img alt={p.title} src={p.img}/>
+                                {/* <img alt={p.title} src={p.img}/> */}
                                 <h5>{p.title}</h5>
                                 <p>{p.description}</p>
                             </div>
